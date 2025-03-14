@@ -152,6 +152,12 @@
         
         
 
+        
+        createChannelButtons();
+        image.addEventListener("click", function() {
+            audio.play();
+        });
+
         modal.addEventListener('click', function(e) {
             if (e.target === modal) {
                 modal.style.display = 'none';
